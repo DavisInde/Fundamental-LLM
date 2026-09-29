@@ -1,4 +1,4 @@
-package com.example.overdrive.domain.activities
+package com.example.overdrive.domain.activity
 
 import java.time.LocalDate
 

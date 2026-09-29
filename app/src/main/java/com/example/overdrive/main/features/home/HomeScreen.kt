@@ -7,7 +7,7 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.overdrive.main.features.home.sections.RecentActivitiesSection
-import com.example.overdrive.main.features.home.sections.StreakSection
+import com.example.overdrive.main.features.home.sections.streak.StreakSection
 
 @Composable
 fun HomeScreen() {

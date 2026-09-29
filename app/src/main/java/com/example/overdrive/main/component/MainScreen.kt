@@ -5,7 +5,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.example.overdrive.main.features.account.ConnectedAccountScreen
+import com.example.overdrive.main.features.account.HealthAccountScreen
 import com.example.overdrive.main.features.home.HomeScreen
 
 @Composable
@@ -18,7 +18,7 @@ fun MainScreen(
         Box(modifier = Modifier.padding(it)) {
             when(selectedPages) {
                 Pages.HOME -> HomeScreen()
-                Pages.ACCOUNT -> ConnectedAccountScreen()
+                Pages.ACCOUNT -> HealthAccountScreen()
             }
         }
     }
